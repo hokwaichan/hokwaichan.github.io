@@ -11,9 +11,9 @@ labels:
 summary: "Final Project for ICS 212."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/SHA-1(2).png">
 
-The Secure Hash Algorithm 1 (SHA-1) is a cryptographic hash function that creates a hash or message digest from a variable-size input, such as a file or message. It was created in 1993 by the National Institute of Standards and Technology(NIST) of the United States government.
+The Secure Hash Algorithm 1 (SHA-1) is a cryptographic hash function that creates a hash or message digest from a variable-size input, such as a file or message. It was created in 1993 by the National Institute of Standards and Technology(NIST) of the United States government. 
 
 <hr>
 
