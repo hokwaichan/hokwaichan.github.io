@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/SHA-1.jpg
+image: img/SHA-1.jpg(1)
 title: "SHA-1"
 date: 2022
 published: true
