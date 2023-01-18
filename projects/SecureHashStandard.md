@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/SHA-1.jpg
 title: "SHA-1"
 date: 2022
 published: true
