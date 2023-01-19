@@ -12,7 +12,7 @@ labels:
 ---
 
 <img width="500px" class="rounded float-start pe-4" src="../img/Js.png">   
-
+<br>
 
 ## My experience of learning Javascript
 
