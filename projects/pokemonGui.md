@@ -1,14 +1,14 @@
 ---
 layout: project
 type: project
-image: img/SHA-1(1).jpg
+image: img/Poké_Ball_icon.svg.png
 title: "Pokemon Gui"
 date: 2022
 published: true
 labels:
   - Java Language
   - Gui
-  - 
+  - Data Structures
   
 summary: "Pokemon Gui Final Project for ICS 211."
 ---
