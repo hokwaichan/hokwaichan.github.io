@@ -30,5 +30,40 @@ The next step is to initialize each of the five 32-bit registers (A, B, C, D, an
 
 The padded message is then divided into 512-bit (or 64-byte) chunks and put through a number of processes. These operations include breaking the block into 16 32-bit words and performing a series of logical operations and rotations on the words and the registers.  Since the original message cannot be easily recreated from the hash value, these processes are intended to be complex and challenging to reverse. The five 32-bit registers are also used, and distinct values are used for each of them, which adds to the process' complexity and difficulty in reversing.
 
+Here is some code that illustrates how shifting works:
+```cpp
+unsigned int f(unsigned int t, unsigned int B, unsigned int C, unsigned int D){    
+    if(0 <= t && t <= 19){
+        return (B & C) | ((~B) & D);
+    }
+    else if(20 <= t && t <= 39){
+        return (B ^ C ^ D);
+    }
+    else if(40 <= t && t <= 59){
+        return (B & C) | (B & D) | (C & D);
+    }
+    else if(60 <= t && t <= 79){
+        return (B ^ C ^ D);
+    }
+    return t;
+}
+
+//A sequence of constant words K(0), K(1), ... , K(79)
+unsigned int k(unsigned int t){
+    if(0 <= t && t <= 19){
+        return 0x5A827999;
+    }
+    else if(20 <= t && t <= 39){
+        return 0x6ED9EBA1;
+    }
+    else if(40 <= t && t <= 59){
+        return 0x8F1BBCDC;
+    }
+    else if(60 <= t && t <= 79){
+        return 0xCA62C1D6;
+    }
+    return t;
+}
+```
 
 Source: <a href="https://github.com/hokwaichan/ICS212FinalProject"><i class="large github icon "></i>finalProject/ics-212-SHA-1</a>
