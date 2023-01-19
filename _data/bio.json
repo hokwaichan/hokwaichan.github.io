@@ -51,33 +51,6 @@
       ]
     }        
   ],
-  "work": [
-    {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "",
-        ""
-      ]
-    }
-  ],
-    "volunteer": [
-    {
-      "organization": "",
-      "website": "",
-      "position": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "",
-        ""
-      ]
-    },
   "awards": [
     {
       "title": "National Science Foundation Geopaths - Impact (GP-IMPACT)",
@@ -90,7 +63,7 @@
       "date": "08/2020 – 08/2022",
       "awarder": "",
       "summary": ""
-    }
+      }
     ],
   "references": [
     {
