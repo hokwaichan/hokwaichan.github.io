@@ -11,7 +11,7 @@ labels:
   - Learning
 ---
 
-<img width="700px" class="rounded float-start pe-4" src="../img/Js.png">
+<img width="500px" class="rounded float-start pe-4" src="../img/Js.png">
 
 
 ## My experience of learning Javascript
@@ -21,3 +21,8 @@ As a complete newbie to Javascript, I have found the language to be quite easy t
 ## Pros and cons of Javascript
 
 From the perspective of software engineering, Javascript is an excellent programming language in my opinion. One of the features I like the most about Javascript is its flexibility. It may be used for both frontend and backend development and can be integrated with other programming languages such as CSS, HTML, etc. Along with all of its advantages, it also has disadvantages. The fact that the syntax does not distinguish between different types of variables when initializing variables, such as int, strings, and doubles, confused me when I was learning Javascript. This can make it slightly more difficult, especially for beginner programmers, to determine what kind of data a variable is holding.
+
+## Athletic software engineering
+
+In terms of athletic software engineering, I have found the practice WODs to be really useful. This kind of learning, which focuses on problem-solving and practical application, has allowed me to firmly absorb the material I have learned. Despite the fact that the exercises are meant to be difficult and stressful, I find them to be an enjoyable method to learn. I believe that this approach will be beneficial for me since it enables me to use the knowledge I have learned in an actual scenario, which will improve my ability to understand and remember it.
+
