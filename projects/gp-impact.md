@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/
+image: img/kccStem.png
 title: "National Science Foundation Geopaths - Impact (GP-IMPACT)"
 date: 2021
 published: true
