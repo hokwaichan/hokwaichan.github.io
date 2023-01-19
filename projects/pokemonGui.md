@@ -12,6 +12,8 @@ labels:
   
 summary: "Pokemon Gui Final Project for ICS 211."
 ---
+<img class="img-fluid" src="../img/pokemon-logo-black-transparent.png">
+
 The assignment is to build a Graphical User Interface (GUI) for a Pokemon species hierarchy program.  
 
 ## What is GUI? 
