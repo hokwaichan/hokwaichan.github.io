@@ -3,7 +3,7 @@ layout: project
 type: project
 image: img/Poké_Ball_icon.svg.png
 title: "Pokemon Gui"
-date: 2022
+date: 2021
 published: true
 labels:
   - Java Language
@@ -12,9 +12,9 @@ labels:
   
 summary: "Pokemon Gui Final Project for ICS 211."
 ---
-<img class="img-fluid" src="../img/pokemon-logo-black-transparent.png">
+<img class="img-fluid" src="../img/pokeGui.png">
 
-The assignment is to build a Graphical User Interface (GUI) for a Pokemon species hierarchy program.  
+The assignment is to build a Graphical User Interface (GUI) for a Pokemon species hierarchy program in Java .  
 
 ## What is GUI? 
 In Java, GUI stands for Graphical User Interface. It is a way to interact with a program through visual elements such as buttons, text fields, and windows. GUI provides a user-friendly way to interact with a program, rather than using command-line input and output. Java provides a rich set of libraries and classes to create GUI-based applications, such as the Abstract Window Toolkit (AWT) and the Swing library. These libraries provide a wide range of components such as buttons, labels, text fields, and more that can be used to create a graphical interface for a program. Additionally, Java also provides layout managers to control the placement of components in a window, and event-handling mechanisms to respond to user interactions with the GUI components.
@@ -25,9 +25,7 @@ From this project, I have learned how to use a Graphical User Interface (GUI) to
 Source: <a href="https://github.com/hokwaichan/ICS211FinalProject"><i class="large github icon "></i>finalProject/ics-211-pokeGui</a>
 
 
-This is what the game looks like:
 
 
-<img class="img-fluid" src="../img//img/pokeGui.png">
 
 
