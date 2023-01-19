@@ -21,9 +21,9 @@ The Secure Hash Algorithm 1 (SHA-1) is a cryptographic hash function that create
 
 <pre>
 
-This project was completed 
+This project was completed in C language in the Spring semester of 2022. Working on SHA-1 has helped me to better understand a number of fundamental concepts in computer science and cryptography. The technique is a well-known illustration of a cryptographic hash function and offers an excellent chance to understand the characteristics that make hash functions secure. 
 
-
+Some basic concepts about how SHA-1 works are 
 
 
 
