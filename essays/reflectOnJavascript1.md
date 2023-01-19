@@ -11,7 +11,7 @@ labels:
   - Learning
 ---
 
-<img class="img-fluid" src="../img/Js.png"> 
+<img class="img-fluid" src="../img/JsPic.png"> 
 
 
 ## My experience of learning Javascript
