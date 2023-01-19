@@ -11,7 +11,7 @@ labels:
   - Learning
 ---
 
-<img width="245px" class="rounded float-start pe-4" src="../img/Js.png">
+<img width="400px" class="rounded float-start pe-4" src="../img/Js.png">
 
 
 ## My experience of learning Javascript
