@@ -14,7 +14,7 @@ summary: "NSF GP-IMPACT program"
 ---
 <img class="img-fluid" src="../img/KapCC-STEM-Long-Logo.png">
 
-## My experience of participating in the National Science Foundation Geopaths
+## Experience of participating in the National Science Foundation Geopaths
 
 Participating in the National Science Foundation Geopaths - Impact program during the fall semester of 2021 was an incredibly enriching experience for me. The program provided me with the opportunity to give back to my community by volunteering to help organize both the Student Undergraduate Research Fair (SURF) and the STEM Expo. Through these opportunities, I was able to strengthen my leadership skills, collaborate with faculty mentors, and gain a deeper understanding of the event organization process.
 
