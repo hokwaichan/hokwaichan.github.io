@@ -24,7 +24,6 @@ One of the most exciting aspects of the program for me was the chance to work on
 <img class="img-fluid" src="../img/stem1.png">
 <img class="img-fluid" src="../img/stem2.png">
 <img class="img-fluid" src="../img/stem3.png">
-<img class="img-fluid" src="../img/stem4.png">
 
 Overall, participating in the National Science Foundation Geopaths - Impact program was a truly meaningful and rewarding experience. It allowed me to grow both personally and professionally and I am grateful for the opportunity. I look forward to applying what I have learned in future projects and endeavors.
 
