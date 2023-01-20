@@ -20,12 +20,11 @@ Participating in the National Science Foundation Geopaths - Impact program durin
 
 One of the most exciting aspects of the program for me was the chance to work on web design using Elementor. I had the opportunity to design and develop the KCC STEM website, specifically the event page. It was challenging, but I was able to learn how to create a website that was both visually appealing and user-friendly, and how to optimize it for search engines. This experience was particularly valuable as it allowed me to put my technical skills to the test in a real-world setting.
 
+Overall, participating in the National Science Foundation Geopaths - Impact program was a truly meaningful and rewarding experience. It allowed me to grow both personally and professionally and I am grateful for the opportunity. I look forward to applying what I have learned in future projects and endeavors.
 
 <img class="img-fluid" src="../img/stem1.png">
 <img class="img-fluid" src="../img/stem2.png">
 <img class="img-fluid" src="../img/stem3.png">
-
-Overall, participating in the National Science Foundation Geopaths - Impact program was a truly meaningful and rewarding experience. It allowed me to grow both personally and professionally and I am grateful for the opportunity. I look forward to applying what I have learned in future projects and endeavors.
 
 
 Source: <a href="https://kccstem.com/"><i class="large kccstem icon"></i>kccstem</a>
