@@ -18,8 +18,10 @@ summary: "SHA-1 Final Project for ICS 212."
 The Secure Hash Algorithm 1 (SHA-1) is a cryptographic hash function that creates a hash or message digest from a variable-size input, such as a file or message. It was created in 1993 by the National Institute of Standards and Technology(NIST) of the United States government. 
 
 
+
 ## What I learned from this project
 This project was completed in C language in the ICS 212 Spring semester of 2022. Working on SHA-1 has helped me to better understand a number of fundamental concepts in computer science and cryptography. The technique is a well-known illustration of a cryptographic hash function and offers an excellent chance to understand the characteristics that make hash functions secure. 
+
 
 ## What is SHA-1? 
 SHA-1 is a cryptographic hash function that is used to generate a fixed-length output from an input of any size. It is a widely used algorithm for data security and integrity, and it is frequently used for file integrity verification and digital signatures. The process of generating a hash value using SHA-1 involves several steps, including padding, initialization, and processing.
