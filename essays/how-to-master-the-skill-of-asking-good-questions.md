@@ -36,57 +36,57 @@ On the other hand, a question that is poorly written and lacks specifics is bad.
 1. As mentioned, we should never use an unclear header when asking a question.
 
 ```
-  “please help me in lxml” 
+      “please help me in lxml” 
 ```
 
 2. The question is unclear and lacks details
 
 ```
-  I am facing some problem in scraping using lxml I just made a code that is working fine but I have two problems
-  I want name and address in same row and every entry should be in different  line like
+      I am facing some problem in scraping using lxml I just made a code that is working fine but I have two problems
+      I want name and address in same row and every entry should be in different  line like
 
-     name1,adress1
-     name2,adress2
+        name1,adress1
+        name2,adress2
     
-  i dont need any squar bracket in the data
-  I have to enter 500 codes so I want to import it from external text/csv file Please help me how can i do it
+      i dont need any squar bracket in the data
+      I have to enter 500 codes so I want to import it from external text/csv file Please help me how can i do it
 
-  import lxml.html as lh
+      import lxml.html as lh
 
-  from selenium import webdriver
+      from selenium import webdriver
 
-  browser = webdriver.Firefox()
+      browser = webdriver.Firefox()
 
-  from lxml import html
+      from lxml import html
 
-  for cod in ("35211","36116","36542"):
+      for cod in ("35211","36116","36542"):
      
-      browser.get('http://kmbsapps.konicaminolta.us/wheretobuy/main_search.jspx?productCategory=Office+Systems&sl_zip='+cod)
+          browser.get('http://kmbsapps.konicaminolta.us/wheretobuy/main_search.jspx?productCategory=Office+Systems&sl_zip='+cod)
       
-      content = browser.page_source
+          content = browser.page_source
      
-      tree = lh.fromstring(content)
+          tree = lh.fromstring(content)
     
-      name=tree.xpath('//tr/td/span[@class="largecol"]/text()')
+          name=tree.xpath('//tr/td/span[@class="largecol"]/text()')
      
-      adress=tre.xpath('//tr/td/span[@class="smallcol"]/text()')
+          adress=tre.xpath('//tr/td/span[@class="smallcol"]/text()')
      
-      print(name,adress)
+          print(name,adress)
 ```
 
 3. The author was not able to answer the helper’s question about the issue as we can see from the conversation between the author and the helper.
 
 ```
-  How does the text/csv look like? – helper
-  it is in excell in column – author of the post
-  I mean: what columns are there? – helper
+      How does the text/csv look like? – helper
+      it is in excell in column – author of the post
+      I mean: what columns are there? – helper
 ```
 
 4. The author was not intended to test the code on their own the helper provided 
 
 ```
-  will i get results in seprate lines – author of the post
-  Yes you will. Please try yourself. I gave you working codes. – helper
+      will i get results in seprate lines – author of the post
+      Yes you will. Please try yourself. I gave you working codes. – helper
 ```
 
 Source: <a href="https://stackoverflow.com/questions/25831209/please-help-me-in-lxml"><i class="Stackoverflow"></i>BadQuestion</a>
