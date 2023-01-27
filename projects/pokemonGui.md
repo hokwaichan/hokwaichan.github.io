@@ -12,15 +12,22 @@ labels:
   
 summary: "Pokemon Gui Final Project for ICS 211."
 ---
-<img class="img-fluid" src="../img/pokeGui.png">
+<img class="img-fluid" src="../img/pokemonGui1.jpg">
 
-The assignment is to build a Graphical User Interface (GUI) for a Pokemon species hierarchy program in Java .  
+## The project
+The assignment is to build a Graphical User Interface (GUI) for a Pokemon species hierarchy program in Java.  
+
 
 ## What is GUI? 
-A Graphical User Interface (GUI) is a way for users to interact with a computer using visual elements such as buttons, text fields, and windows. This approach is more user-friendly compared to using command-line input and output. Java has several libraries, like the Swing library, that can be used to develop GUI applications. These libraries offer a wide range of components and are very useful for creating visual programs.
+A graphic user interface (GUI) is a tool for people to interact with a computer utilizing visual components like buttons, text fields, and windows. When compared to using command-line input and output, this technique is more user-friendly. The Swing library is one of several Java libraries that may be used to create graphical user interface (GUI) applications. These libraries include a large variety of components and are highly helpful for developing visual programs.
+
 
 ## What I learned from this project
-Through this project, I have gained valuable knowledge in using a Graphical User Interface (GUI) to create a 2D frame, which is an important skill for developing user-friendly programs. I applied various techniques learned in class to make the program more interactive and enjoyable. For instance, data structures like stack and priority queue were used to sort the captured and met Pokemon, which is a key aspect of the program. This project has taught me how to effectively implement sorting techniques and distinguish between different data structures. It has also enhanced my skills in GUI development.
+Through this project, I've learned a lot about creating a 2D frame using a Graphical User Interface (GUI), a crucial ability for making user-friendly applications. I used a variety of in-class methods to increase the program's interactivity and enjoyment. For instance, sorting the caught and encountered Pokemon—a major part of the program—was accomplished using data structures like stack and priority queue. Through this project, I've learned how to differentiate between various data formats and apply sorting strategies efficiently. It has also improved my ability to create GUIs.
+
+Here is an image of the game:
+<img width="300px" class="rounded float-start pe-4" src="../img/pokeGui.png">
+
 
 Source: <a href="https://github.com/hokwaichan/ICS211FinalProject"><i class="large github icon "></i>finalProject/ics-211-pokeGui</a>
 
