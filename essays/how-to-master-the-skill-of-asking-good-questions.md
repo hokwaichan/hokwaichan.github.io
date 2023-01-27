@@ -19,7 +19,7 @@ Asking questions is an essential part of being a software engineer. It enables y
 
 
 ## A “Smart” question should look like 
-When asking for help, it's important to make sure your question is clear and informative. A good question should provide specific details about your problem and include all the necessary information for someone to understand the issue. To make it easy for others to understand, using a meaningful and specific subject header would be helpful. Clearly describes the problem and what's deviating from the expected behavior. Don't forget to include an explicit request for a reply and a way for someone to get in touch with you, such as an email or forum thread. And lastly, be sure to use clear, grammatically correct language and anticipate and answer any questions a helper may have, provide a minimal test case or hint about the problem with code, and be courteous and appreciative of any help provided.
+When asking for help, make sure your question is clear and informative. A good question should provide specific details about your problem and include all the necessary information for someone to understand the issue. To make it easy for others to understand, using a meaningful and specific subject header would be helpful. Clearly describes the problem and what's deviating from the expected behavior. Don't forget to include an explicit request for a reply and a way for someone to get in touch with you, such as an email or forum thread. And lastly, be sure to use clear, grammatically correct language and anticipate and answer any questions a helper may have, provide a minimal test case or hint about the problem with code, and be courteous and appreciative of any help provided.
 
 
 ## An example of asking a Smart question
@@ -28,7 +28,7 @@ The question below is an example of a smart question. It included a good header,
 ```
       Recently, I ran some of my JavaScript code through Crockford's JSLint, and it gave the following error:
 
-      Problem at line 1 character 1: Missing "use strict" statement.
+          Problem at line 1 character 1: Missing "use strict" statement.
         
       Doing some searching, I realized that some people add "use strict"; into their JavaScript code. Once I added the statement, the error stopped appearing. Unfortunately, Google did not reveal much of the history behind this string statement. Certainly it must have something to do with how the JavaScript is interpreted by the browser, but I have no idea what the effect would be.
 
