@@ -28,7 +28,6 @@ Source: <a href="https://github.com/hokwaichan/ICS211FinalProject"><i class="lar
 ## Here is an image of the game:
 <img width="300px" class="rounded float-start pe-4" src="../img/pokeGui.png"> 
 
-<br/>
 
 
 
