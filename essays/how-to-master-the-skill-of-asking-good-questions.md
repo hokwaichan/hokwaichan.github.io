@@ -23,10 +23,18 @@ When asking for help, it's important to make sure your question is clear and inf
 
 
 ## An example of asking a Smart question
+The question below is an example of a smart question. I included a good header, and the question is straightfoward. The person who ask the question have done some research before asking.    
+```
+      Recently, I ran some of my JavaScript code through Crockford's JSLint, and it gave the following error:
 
+      Problem at line 1 character 1: Missing "use strict" statement.
+        
+        Doing some searching, I realized that some people add "use strict"; into their JavaScript code. Once I added the statement, the error stopped appearing.             Unfortunately, Google did not reveal much of the history behind this string statement. Certainly it must have something to do with how the JavaScript is               interpreted by the browser, but I have no idea what the effect would be.
 
+      So what is "use strict"; all about, what does it imply, and is it still relevant?
 
-
+      Do any of the current browsers respond to the "use strict"; string or is it for future use?
+```
 
 ## What about a "Stupid" question?
 On the other hand, a question that is poorly written and lacks specifics is bad. Because of this, it might be challenging for someone to comprehend the issue. These kinds of questions may contain exclamation points or expressions like "Please help me," be unclear or unspecific in their topic headings, and waste space in the subject line by detailing their own suffering. They might not even attempt to use their research skills or problem-solving abilities. Instead, they just throw the issue out there and let others handle it.
