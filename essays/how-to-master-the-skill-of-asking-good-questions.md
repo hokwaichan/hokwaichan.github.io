@@ -19,7 +19,7 @@ Asking questions is an essential part of being a software engineer. It enables y
 
 
 ## A “Smart” question should look like 
-When asking for help, make sure your question is clear and informative. A good question should provide specific details about your problem and include all the necessary information for someone to understand the issue. To make it easy for others to understand, using a meaningful and specific subject header would be helpful. Clearly describes the problem and what's deviating from the expected behavior. Don't forget to include an explicit request for a reply and a way for someone to get in touch with you, such as an email or forum thread. And lastly, be sure to use clear, grammatically correct language and anticipate and answer any questions a helper may have, provide a minimal test case or hint about the problem with code, and be courteous and appreciative of any help provided.
+When asking for help, make sure your question is clear and informative. A good question should provide specific details about your problem and include all the necessary information for someone to understand the issue. To make it easy for others to understand, using a meaningful and specific subject header would be helpful. Clearly describes the problem and what's deviating from the expected behavior. If it is possible, include an explicit request for a reply and a way for someone to get in touch with you, such as an email or forum thread. And lastly, be sure to use clear, grammatically correct language and anticipate and answer any questions a helper may have, provide a minimal test case or hint about the problem with code, and be courteous and appreciative of any help provided.
 
 
 ## An example of asking a Smart question
@@ -44,13 +44,13 @@ On the other hand, a question that is poorly written and lacks specifics is bad.
 
 
 ## An example of asking a Stupid question
-1. As mentioned, we should never use an unclear header when asking a question.
+1. As mentioned, we should never use an unclear header.
 
 ```
       “please help me in lxml” 
 ```
 
-2. The question is unclear and lacks details
+2. The question is unclear and lacks details.
 
 ```
       I am facing some problem in scraping using lxml I just made a code that is working fine but I have two problems
@@ -85,17 +85,19 @@ On the other hand, a question that is poorly written and lacks specifics is bad.
           print(name,adress)
 ```
 
-3. The author was not able to answer the helper’s question about the issue as we can see from the conversation between the author and the helper.
+3. The author was not able to answer the helper’s question about the issue. 
 
 ```
+      Conversation:
       How does the text/csv look like? – helper
       it is in excell in column – author of the post
       I mean: what columns are there? – helper
 ```
 
-4. The author was not intended to test the code on their own the helper provided 
+4. The author was not intended to test the code on their own the helper provided. 
 
-```
+```   
+      Conversation:
       will i get results in seprate lines – author of the post
       Yes you will. Please try yourself. I gave you working codes. – helper
 ```
