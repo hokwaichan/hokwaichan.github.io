@@ -14,9 +14,7 @@ summary: "Pokemon Gui Final Project for ICS 211."
 ---
 <img class="img-fluid" src="../img/pokemonGui1.jpg">
 
-## About the project
 The assignment is to build a Graphical User Interface (GUI) for a Pokemon species hierarchy program in Java.   
-
 
 ## What is GUI? 
 A graphic user interface (GUI) is a tool for people to interact with a computer utilizing visual components like buttons, text fields, and windows. When compared to using command-line input and output, this technique is more user-friendly. The Swing library is one of several Java libraries that may be used to create graphical user interface (GUI) applications. These libraries include a large variety of components and are highly helpful for developing visual programs.
