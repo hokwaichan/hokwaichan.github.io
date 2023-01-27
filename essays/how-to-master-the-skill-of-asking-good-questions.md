@@ -25,4 +25,45 @@ When asking for help, it's important to make sure your question is clear and inf
 ## What about a "Stupid" question?
 On the other hand, a question that is poorly written and lacks specifics is bad. Because of this, it might be challenging for someone to comprehend the issue. These kinds of questions may contain exclamation points or expressions like "Please help me," be unclear or unspecific in their topic headings, and waste space in the subject line by detailing their own suffering. They might not even attempt to use their research skills or problem-solving abilities. Instead, they just throw the issue out there and let others handle it.
 
+## An example of asking a Stupid question
 
+1. As mentioned, we should never use an unclear header when asking a question.
+```
+“please help me in lxml” 
+```
+
+2. The question is unclear and lacks details
+```
+I am facing some problem in scraping using lxml I just made a code that is working fine but I have two problems
+I want name and address in same row and every entry should be in different  line like
+    name1,adress1
+    name2,adress2
+i dont need any squar bracket in the data
+I have to enter 500 codes so I want to import it from external text/csv file Please help me how can i do it
+
+import lxml.html as lh
+from selenium import webdriver
+browser = webdriver.Firefox()
+from lxml import html
+for cod in ("35211","36116","36542"):
+     browser.get('http://kmbsapps.konicaminolta.us/wheretobuy/main_search.jspx?productCategory=Office+Systems&sl_zip='+cod)
+     content = browser.page_source
+     tree = lh.fromstring(content)
+     name=tree.xpath('//tr/td/span[@class="largecol"]/text()')
+     adress=tre.xpath('//tr/td/span[@class="smallcol"]/text()')
+     print(name,adress)
+```
+
+3. The author was not able to answer the helper’s question about the issue as we can see from the conversation between the author and the helper.
+```
+How does the text/csv look like? – helper
+it is in excell in column – author of the post
+I mean: what columns are there? – helper
+```
+
+4. The author was not willing to test the code the helper provided on their own
+```
+will i get results in seprate lines – author of the post
+Yes you will. Please try yourself. I gave you working codes. – helper
+```
+Source: <a href="https://stackoverflow.com/questions/25831209/please-help-me-in-lxml"><i class="Stackoverflow"></i>badquestionstackoverflow</a>
