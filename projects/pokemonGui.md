@@ -25,9 +25,10 @@ Through this project, I have learned a lot about creating a 2D frame using a Gra
 
 
 ## Here is an image of the game:
-```
-<img width="300px" class="rounded float-start pe-4" src="../img/pokeGui.png">
-```
+
+<img width="300px" class="rounded float-start pe-4" src="../img/pokeGui.png">\A  
+
+
 
 Source: <a href="https://github.com/hokwaichan/ICS211FinalProject"><i class="large github icon "></i>finalProject/ics-211-pokeGui</a>
 
