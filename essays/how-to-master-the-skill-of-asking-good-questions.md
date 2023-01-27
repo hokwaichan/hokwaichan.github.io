@@ -34,11 +34,13 @@ On the other hand, a question that is poorly written and lacks specifics is bad.
 ## An example of asking a Stupid question
 
 1. As mentioned, we should never use an unclear header when asking a question.
+
 ```
 “please help me in lxml” 
 ```
 
 2. The question is unclear and lacks details
+
 ```
 I am facing some problem in scraping using lxml I just made a code that is working fine but I have two problems
 I want name and address in same row and every entry should be in different  line like
@@ -70,10 +72,10 @@ for cod in ("35211","36116","36542"):
      adress=tre.xpath('//tr/td/span[@class="smallcol"]/text()')
      
      print(name,adress)
-     
 ```
 
 3. The author was not able to answer the helper’s question about the issue as we can see from the conversation between the author and the helper.
+
 ```
 How does the text/csv look like? – helper
 it is in excell in column – author of the post
@@ -81,8 +83,10 @@ I mean: what columns are there? – helper
 ```
 
 4. The author was not intended to test the code on their own the helper provided 
+
 ```
 will i get results in seprate lines – author of the post
 Yes you will. Please try yourself. I gave you working codes. – helper
 ```
-Source: <a href="https://stackoverflow.com/questions/25831209/please-help-me-in-lxml"><i class="Stackoverflow"></i>badquestionstackoverflow</a>
+
+Source: <a href="https://stackoverflow.com/questions/25831209/please-help-me-in-lxml"><i class="Stackoverflow"></i>badQuestion</a>
