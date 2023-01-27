@@ -22,6 +22,12 @@ Asking questions is an essential part of being a software engineer. It enables y
 When asking for help, it's important to make sure your question is clear and informative. A good question should provide specific details about your problem and include all the necessary information for someone to understand the issue. To make it easy for others to understand, using a meaningful and specific subject header would be helpful. Clearly describes the problem and what's deviating from the expected behavior. Don't forget to include an explicit request for a reply and a way for someone to get in touch with you, such as an email or forum thread. And lastly, be sure to use clear, grammatically correct language and anticipate and answer any questions a helper may have, provide a minimal test case or hint about the problem with code, and be courteous and appreciative of any help provided.
 
 
+## An example of asking a Smart question
+
+
+
+
+
 ## What about a "Stupid" question?
 On the other hand, a question that is poorly written and lacks specifics is bad. Because of this, it might be challenging for someone to comprehend the issue. These kinds of questions may contain exclamation points or expressions like "Please help me," be unclear or unspecific in their topic headings, and waste space in the subject line by detailing their own suffering. They might not even attempt to use their research skills or problem-solving abilities. Instead, they just throw the issue out there and let others handle it.
 
@@ -74,7 +80,7 @@ it is in excell in column – author of the post
 I mean: what columns are there? – helper
 ```
 
-4. The author was not willing to test the code the helper provided on their own
+4. The author was not intended to test the code on their own the helper provided 
 ```
 will i get results in seprate lines – author of the post
 Yes you will. Please try yourself. I gave you working codes. – helper
