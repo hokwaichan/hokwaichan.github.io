@@ -36,22 +36,35 @@ On the other hand, a question that is poorly written and lacks specifics is bad.
 ```
 I am facing some problem in scraping using lxml I just made a code that is working fine but I have two problems
 I want name and address in same row and every entry should be in different  line like
+
     name1,adress1
     name2,adress2
+    
 i dont need any squar bracket in the data
 I have to enter 500 codes so I want to import it from external text/csv file Please help me how can i do it
 
 import lxml.html as lh
+
 from selenium import webdriver
+
 browser = webdriver.Firefox()
+
 from lxml import html
+
 for cod in ("35211","36116","36542"):
+     
      browser.get('http://kmbsapps.konicaminolta.us/wheretobuy/main_search.jspx?productCategory=Office+Systems&sl_zip='+cod)
+    
      content = browser.page_source
+     
      tree = lh.fromstring(content)
+    
      name=tree.xpath('//tr/td/span[@class="largecol"]/text()')
+     
      adress=tre.xpath('//tr/td/span[@class="smallcol"]/text()')
+     
      print(name,adress)
+     
 ```
 
 3. The author was not able to answer the helper’s question about the issue as we can see from the conversation between the author and the helper.
