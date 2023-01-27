@@ -23,7 +23,8 @@ When asking for help, it's important to make sure your question is clear and inf
 
 
 ## An example of asking a Smart question
-The question below is an example of a smart question. I included a good header, and the question is straightfoward. The person who ask the question have done some research before asking.    
+The question below is an example of a smart question. It included a good header, and the question is straightforward. The person who asks the question has also done some research before asking.
+
 ```
       Recently, I ran some of my JavaScript code through Crockford's JSLint, and it gave the following error:
 
@@ -41,8 +42,8 @@ Source: <a href="https://stackoverflow.com/questions/1335851/what-does-use-stric
 ## What about a "Stupid" question?
 On the other hand, a question that is poorly written and lacks specifics is bad. Because of this, it might be challenging for someone to comprehend the issue. These kinds of questions may contain exclamation points or expressions like "Please help me," be unclear or unspecific in their topic headings, and waste space in the subject line by detailing their own suffering. They might not even attempt to use their research skills or problem-solving abilities. Instead, they just throw the issue out there and let others handle it.
 
-## An example of asking a Stupid question
 
+## An example of asking a Stupid question
 1. As mentioned, we should never use an unclear header when asking a question.
 
 ```
