@@ -12,7 +12,7 @@ labels:
   - StackOverflow
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/smartQuestion1.jpg">
 
 ## Why do we ask questions?
 Asking questions is an essential part of being a software engineer. It enables you to understand your problems more thoroughly. But it's crucial to keep in mind that you shouldn't depend on other people to handle all of your difficulties. Make sure you have thought it through or done your research before you ask a question. Sometimes, the problem you are facing might have already been asked or even answered. When asking questions, communication is vital. The answer you get will likely depend a lot on how you word your question. Therefore, it's important to improve your questioning skills.
