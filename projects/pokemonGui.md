@@ -25,7 +25,7 @@ A graphic user interface (GUI) is a tool for people to interact with a computer 
 
 
 ## What I learned from this project
-Through this project, I've learned a lot about creating a 2D frame using a Graphical User Interface (GUI), a crucial ability for making user-friendly applications. I used a variety of in-class methods to increase the program's interactivity and enjoyment. For instance, sorting the caught and encountered Pokemon—a major part of the program—was accomplished using data structures like stack and priority queue. Through this project, I've learned how to differentiate between various data formats and apply sorting strategies efficiently. It has also improved my ability to create GUIs.
+Through this project, I have learned a lot about creating a 2D frame using a Graphical User Interface (GUI), a crucial ability for making user-friendly applications. I used a variety of in-class methods to increase the program's interactivity and enjoyment. For instance, sorting the caught and encountered Pokemon—a major part of the program—was accomplished using data structures like stack and priority queue. Through this project, I've learned how to differentiate between various data formats and apply sorting strategies efficiently. It has also improved my ability to create GUIs.
 
 Source: <a href="https://github.com/hokwaichan/ICS211FinalProject"><i class="large github icon "></i>finalProject/ics-211-pokeGui</a>
 
