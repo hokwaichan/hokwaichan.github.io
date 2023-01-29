@@ -10,8 +10,8 @@ labels:
   - Interest
 ---
 
-<img class="img-fluid" src="../img/software-engineering-essay.png"> 
-
+<img width="300px" class="img-fluid" src="../img/software-engineering-essay.png"> 
+ 
 
 ## First
 asdfasdf
