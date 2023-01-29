@@ -10,7 +10,7 @@ labels:
   - Computer Security
   - Hash Algorithm
   
-summary: "SHA-1 Final Project for ICS 212."
+summary: "ICS 212 Final Project"
 ---
 
 <img class="img-fluid" src="../img/SHA-1(2).png">
