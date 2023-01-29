@@ -10,7 +10,7 @@ labels:
   - Gui
   - Data Structures
   
-summary: "Pokemon Gui Final Project for ICS 211."
+summary: "ICS211 Final Project"
 ---
 <img class="img-fluid" src="../img/pokemonGui1.jpg">
 
