@@ -26,7 +26,6 @@ Overall, participating in the National Science Foundation Geopaths - Impact prog
 <img class="img-fluid" src="../img/stem2.png">
 <img class="img-fluid" src="../img/stem3.png">
 
-
 Source: <a href="https://kccstem.com/"><i class="large kccstem icon"></i>kccstem</a>
 
 
