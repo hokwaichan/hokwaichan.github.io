@@ -10,7 +10,7 @@ labels:
   - Interest
 ---
 
-<img width="300px" class="img-fluid" src="../img/software-engineering-essay.png"> 
+<img width="300px" class="center" src="../img/software-engineering-essay.png"> 
  
 
 ## First
