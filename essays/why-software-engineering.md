@@ -10,10 +10,10 @@ labels:
   - Interest
 ---
 
-<img width="300px" class="img-fluid" src="../img/software-engineering-essay.png"> 
+<img width="400px" class="img-fluid" src="../img/software-engineering-essay.png"> 
  
 
 ## First
-1/29/2023 edit for E16: Experience local portfolio management
+1/29/2023 edit for E16: Experience local portfolio management......
 
 
