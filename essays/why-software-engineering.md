@@ -18,7 +18,10 @@ The first project I completed for that class was making a card game, which reall
 
 Finished more ICS courses, made me more confirmed my desire to pursue a career as a software engineer. I was really fascinated by the power of technology to improve people's lives and the joy that comes from developing something new. And so, I continued my journey in computer science and took the course ICS314: Software Engineering. I hope this course can further solidify my passion for the field and brought me closer to my ultimate goal of becoming a software engineer.
 
-In the future, I wish to have a better understanding of computer science and improve my coding skills. I understand that coding is my weakness, therefore I will spend more time mastering the languages I have already learned before attempting to learn a new one. I also want to learn more about the field by participating in real-world projects and conducting research. These experiences will not only increase my knowledge but will also enable me to put my skills to use and advance as a programmer. I believe that by dedicating the time and effort required to acquire these skills and experiences, I will be able to become a well-rounded and confident developer.
+In the future, I wish to have a better understanding of the field and improve my coding skills. I understand that coding is my weakness after failing the second WOD(workout of the day) in the ICS314, therefore I will spend more time mastering the languages I have already learned before attempting to learn a new one.
+
+Additionally, I want to learn more about the field by participating in real-world projects and conducting research. I hope the experiences will not only increase my knowledge but will also enable me to put my skills to use and advance as a programmer. I believe that by dedicating the time and effort required to acquire these skills and experiences, I will be able to become a well-rounded and confident developer.
+
 
 
 
