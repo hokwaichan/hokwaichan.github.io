@@ -7,7 +7,7 @@
     "phone": "808-679-0376",
     "website": "https://hokwaichan.github.io",
     "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "1720 Huna St", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "..", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "hokwaichan", "url": "http://github.com/hokwaichan" },
       { "network": "linkedin", "username": "Hok Wai Chan", "url": "https://www.linkedin.com/in/hok-wai-chan-91655525b/" }
