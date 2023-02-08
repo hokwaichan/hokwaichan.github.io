@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Improve Coding Quality"
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-19
+date: 2023-02-09
 published: true
 labels:
   - Coding Standards
