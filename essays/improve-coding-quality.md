@@ -11,7 +11,7 @@ labels:
   - Quality
 ---
 
-<img width="300px" class="img-fluid" src="../img/.png"> 
+<img width="300px" class="center" src="../img/coding-standards.png"> 
  
 Coding standards are a technique that people usually decide not to learn or master in the field of software engineering. Whether to use spaces to indent, or whether to start a new line with just the close-curly-brace are examples of what some people regard to be minor details. But why are coding standards treated so dismissively by so many people?
 
