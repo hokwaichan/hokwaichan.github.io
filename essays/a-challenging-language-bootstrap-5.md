@@ -12,7 +12,7 @@ labels:
   - Bootstrap 5
 ---
 
-<img class="img-fluid center" src="../img/bootstrap-5.png" width="300px"/> 
+<img class="img-fluid" src="../img/bootstrap-5.png" width="600px"/> 
 
 Working with UI frameworks was a challenging task for me as a beginner in the field of web development. Learning these new languages seemed like a difficult task, despite having a rudimentary grasp of UI frameworks and coding expertise in languages like Java, C, and C++. It took a lot of time and effort to become acclimated to it because there were so many classes and syntaxes to understand. But now that I've used Bootstrap 5 for a week, I can state with certainty that the time and effort spent learning it was well worth it.
 
