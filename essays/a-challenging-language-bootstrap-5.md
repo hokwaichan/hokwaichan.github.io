@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "A challenging language bootstrap 5"
+title: "A challenging language Bootstrap 5"
 # All dates must be YYYY-MM-DD format!
 date: 2023-02-23
 published: true
