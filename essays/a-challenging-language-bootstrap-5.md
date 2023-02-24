@@ -14,6 +14,7 @@ labels:
 
 <img class="img-fluid" src="../img/bootstrap-5.png" width="600px"/> 
 
+# A new language
 Working with UI frameworks was a challenging task for me as a beginner in the field of web development. Learning these new languages seemed like a difficult task, despite having a rudimentary grasp of UI frameworks and coding expertise in languages like Java, C, and C++. It took a lot of time and effort to become acclimated to it because there were so many classes and syntaxes to understand. But now that I've used Bootstrap 5 for a week, I can state with certainty that the time and effort spent learning it was well worth it.
 
 # The advantages 
@@ -22,5 +23,6 @@ UI frameworks, like Bootstrap 5, offer a variety of advantages that increase the
 # Bootstrap 5 or raw CSS?
 Despite there are many advantages, no doubt bootstrap 5 does present some challenges. Styling certain components, like the navbar, was one of the primary challenges I ran with when using and learning it. The expected outcomes could be obtained, but it took a lot of time and effort to achieve it. Although Bootstrap 5 is very helpful for quickly building simple websites, my perspective is that using raw CSS may be more flexible and simpler to work with.
 
+# Amazing experience
 Overall, my experience with UI frameworks over the past two weeks has been fantastic. Truly, I have had a great time and found it to be quite enjoyable. I have long wanted to create my own website but have never known where to begin. I may now achieve my desire with the power of UI frameworks like Bootstrap 5. Seeing my own creation come to life on the screen gives me a great sense of satisfaction. After this two weeks' experience, I anticipate continuing my exploration of UI frameworks in the future.
  
