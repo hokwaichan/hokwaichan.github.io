@@ -10,7 +10,7 @@ labels:
   - Software engineering
 ---
 
-<img class="img-fluid" src="../img/JsPic.png"> 
+<img class="img-fluid" src="../img/design-patterns.png"> 
 
 ## The secret sauce
 Design patterns are an essential aspect of software engineering. They are like the secret sauce in the recipe of software development, providing experienced developers with the necessary tools and techniques to solve common problems and create scalable, maintainable, and efficient solutions. In other words, design patterns serve as the skeleton for software development, just as chefs rely on the right combination of ingredients to create a delicious dish.
