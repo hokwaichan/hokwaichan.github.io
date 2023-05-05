@@ -2,11 +2,11 @@
 layout: essay
 type: essay
 title: "The concepts will be used in future"
-# All dates must be YYYY-MM-DD format!
-date: 2023-04-26
+date: 2023-05-04
 published: true
 labels:
-  - Design patterns
+  - Configuration management
+  - Agile project management
   - Software engineering
 ---
 
