@@ -10,7 +10,7 @@ labels:
   - Software engineering
 ---
 
-<img class="img-fluid" src="../img/reflecting-software-engineering.jng"> 
+<img class="img-fluid" src="../img/reflecting-software-engineering.jpg"> 
 
 Over the eighteen weeks of this software engineering course, I've picked up some helpful concepts that go beyond web application development. Configuration management and agile project management are two topics that caught my attention in particular. Let me explain it to you in simple ways.
 
