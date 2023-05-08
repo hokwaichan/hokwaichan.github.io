@@ -20,13 +20,13 @@ Manoa Trade Your Stuff is a team project for ICS 314. The aim of this project is
 Throughout the course of this project, I have acquired a multitude of valuable skills and knowledge. Firstly, I learned how to effectively collaborate with my teammates. Secondly, I gained experience in creating a website using Meteor React, which included designing the layout, implementing functionality, and adding various features. I also learned how to handle merge conflicts, an essential skill for team-based development. Additionally, I was introduced to TestCafe, which enabled me to test the program and ensure that it was functioning correctly. Moreover, I gained experience in deploying a website, which involved setting up a server and deploying the application to it. Lastly, I learned how to break down a project into a series of milestones, which helped us work more efficiently and complete the project within the given timeline. Overall, this project was an excellent opportunity to acquire and refine various skills that will be useful in my future career.
 
 ## Contributions
--- Create Add Profile Page
--- Create Edit Profile Page
--- Create Profile Page
--- Create Item List 
--- Optimize Categoies Page
--- Optimize Item List Page
--- Adding CSS
+<li> Create Add Profile Page </li>
+<li> Create Edit Profile Page </li>
+<li> Create Profile Page </li>
+<li> Create Item List </li>
+<li> Optimize Categoies Page </li>
+<li> Optimize Item List Page </li>
+<li> Adding CSS </li>
 
 <img width="800px" class="img-fluid" src="../img/manoa-trade-your-stuff-item.png">
 
