@@ -20,7 +20,7 @@ summary: "ICS314 Final Project"
 
 
 
-<img width="300px" class="img-fluid" src="../img/manoa-trade-your-stuff-item">
+<img width="300px" class="img-fluid" src="../img/manoa-trade-your-stuff-item.png">
 
 Source: <a href="https://manoa-trade-your-stuff.github.io/"><i class="large github icon "></i>Manoa trade your stuff github page</a>
 
