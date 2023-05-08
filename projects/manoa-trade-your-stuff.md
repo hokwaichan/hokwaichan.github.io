@@ -29,7 +29,9 @@ Throughout the course of this project, I have acquired a multitude of valuable s
 <li> Adding CSS </li>
 
 
-Source: <a href="https://manoa-trade-your-stuff.github.io/"><i class="large github icon "></i>Manoa trade your stuff github page</a>
+<a href="https://manoa-trade-your-stuff.github.io/"><i class="large github icon "></i>Github page</a>
+<a href="https://manoatradeyourstuff.site/"><i class="large github icon "></i>Manoa Trade Your Stuff Home Page</a>
+
 
 
 
