@@ -28,6 +28,7 @@ Throughout the course of this project, I have acquired a multitude of valuable s
 <li> Optimize Item List Page </li>
 <li> Adding CSS </li>
 
+
 Source: <a href="https://manoa-trade-your-stuff.github.io/"><i class="large github icon "></i>Manoa trade your stuff github page</a>
 
 
