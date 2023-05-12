@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="SHA-1 | Hok Wai Chan | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/77360958?v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hok Wai Chan | Professional Portfolio">
+    <meta property="og:url" content="https://hokwaichan.github.io/projects/sha-1.html">
+    <meta property="og:title" content="SHA-1 | Hok Wai Chan | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/77360958?v=4">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>SHA-1 | Hok Wai Chan | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Hok Wai Chan</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">SHA-1</h1>
+ <p><img class="img-fluid" src="../img/SHA-1(2).png" /></p>
+
+<p>The Secure Hash Algorithm 1 (SHA-1) is a cryptographic hash function that takes a variable-size input, like a file or message, and generates a hash or message digest from it. The National Institute of Standards and Technology (NIST) of the US government developed it in 1993.</p>
+
+<h2 id="what-i-learned-from-this-project">What I learned from this project</h2>
+<p>This project was done in C during the spring semester of 2022 for the class ICS 212. Working on SHA-1 has helped me to better understand a number of fundamental concepts in computer science and cryptography. The technique is a well-known illustration of a cryptographic hash function and offers an excellent chance to understand the characteristics that make hash functions secure.</p>
+
+<h2 id="what-is-sha-1">What is SHA-1?</h2>
+<p>Using an input of arbitrary size, the SHA-1 cryptographic hash algorithm creates a fixed-length output. It is a commonly used algorithm for file integrity verification and digital signatures, as well as for data security and integrity. Padding, initialization, and processing are some of the stages involved in creating a hash value using SHA-1.</p>
+
+<p>The input message must first be padded to a length that is a multiple of 512 bits in order to generate a hash value using SHA-1 (64 bytes). This is done by first adding a 1-bit, then adding zero or more 0-bits, and then adding the original message’s bit count. This ensures that the message size provided is one that can be processed.</p>
+
+<p>The next step is to set the starting values for each of the five 32-bit registers (A, B, C, D, and E). The complexity and security of the algorithm depend on these registers, which are used to process the input message.</p>
+
+<p>Then, after being split into 512-bit (or 64-byte) segments, the padded message is put through a variety of operations. The block is divided into 16 32-bit words as part of these operations, and the words and registers are subjected to a number of logical operations and rotations. These procedures are designed to be intricate and difficult to undo since the original message cannot be simply reconstructed from the hash value. The five 32-bit registers are also utilized, and unique values are used for each of them, which increases the complexity of the procedure and makes it challenging to reverse.</p>
+
+<p>Here is some code that illustrates how shifting works:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">unsigned</span> <span class="kt">int</span> <span class="nf">f</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">t</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">B</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">C</span><span class="p">,</span> <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">D</span><span class="p">){</span>    
+    <span class="k">if</span><span class="p">(</span><span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">t</span> <span class="o">&amp;&amp;</span> <span class="n">t</span> <span class="o">&lt;=</span> <span class="mi">19</span><span class="p">){</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">B</span> <span class="o">&amp;</span> <span class="n">C</span><span class="p">)</span> <span class="o">|</span> <span class="p">((</span><span class="o">~</span><span class="n">B</span><span class="p">)</span> <span class="o">&amp;</span> <span class="n">D</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="mi">20</span> <span class="o">&lt;=</span> <span class="n">t</span> <span class="o">&amp;&amp;</span> <span class="n">t</span> <span class="o">&lt;=</span> <span class="mi">39</span><span class="p">){</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">B</span> <span class="o">^</span> <span class="n">C</span> <span class="o">^</span> <span class="n">D</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="mi">40</span> <span class="o">&lt;=</span> <span class="n">t</span> <span class="o">&amp;&amp;</span> <span class="n">t</span> <span class="o">&lt;=</span> <span class="mi">59</span><span class="p">){</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">B</span> <span class="o">&amp;</span> <span class="n">C</span><span class="p">)</span> <span class="o">|</span> <span class="p">(</span><span class="n">B</span> <span class="o">&amp;</span> <span class="n">D</span><span class="p">)</span> <span class="o">|</span> <span class="p">(</span><span class="n">C</span> <span class="o">&amp;</span> <span class="n">D</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="mi">60</span> <span class="o">&lt;=</span> <span class="n">t</span> <span class="o">&amp;&amp;</span> <span class="n">t</span> <span class="o">&lt;=</span> <span class="mi">79</span><span class="p">){</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">B</span> <span class="o">^</span> <span class="n">C</span> <span class="o">^</span> <span class="n">D</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">t</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">//A sequence of constant words K(0), K(1), ... , K(79)</span>
+<span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">k</span><span class="p">(</span><span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">t</span><span class="p">){</span>
+    <span class="k">if</span><span class="p">(</span><span class="mi">0</span> <span class="o">&lt;=</span> <span class="n">t</span> <span class="o">&amp;&amp;</span> <span class="n">t</span> <span class="o">&lt;=</span> <span class="mi">19</span><span class="p">){</span>
+        <span class="k">return</span> <span class="mh">0x5A827999</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="mi">20</span> <span class="o">&lt;=</span> <span class="n">t</span> <span class="o">&amp;&amp;</span> <span class="n">t</span> <span class="o">&lt;=</span> <span class="mi">39</span><span class="p">){</span>
+        <span class="k">return</span> <span class="mh">0x6ED9EBA1</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="mi">40</span> <span class="o">&lt;=</span> <span class="n">t</span> <span class="o">&amp;&amp;</span> <span class="n">t</span> <span class="o">&lt;=</span> <span class="mi">59</span><span class="p">){</span>
+        <span class="k">return</span> <span class="mh">0x8F1BBCDC</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">else</span> <span class="k">if</span><span class="p">(</span><span class="mi">60</span> <span class="o">&lt;=</span> <span class="n">t</span> <span class="o">&amp;&amp;</span> <span class="n">t</span> <span class="o">&lt;=</span> <span class="mi">79</span><span class="p">){</span>
+        <span class="k">return</span> <span class="mh">0xCA62C1D6</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">t</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Source: <a href="https://github.com/hokwaichan/ICS212FinalProject"><i class="large github icon "></i>finalProject/ics-212-SHA-1</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+{
+  "basics": {
+    "name": "Hok Wai Chan",
+    "label": "Student",
+    "picture": "https://avatars.githubusercontent.com/u/77360958?v=4",
+    "email": "hokwai@hawaii.edu",
+    "phone": "808-679-0376",
+    "website": "https://hokwaichan.github.io",
+    "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "..", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "hokwaichan", "url": "http://github.com/hokwaichan" },
+      { "network": "linkedin", "username": "Hok Wai Chan", "url": "https://www.linkedin.com/in/hok-wai-chan-91655525b/" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Machine Learning" },
+    { "name": "Robotics" },
+    { "name": "Game Development" },
+    { "name": "App Development" },
+    { "name": "Web Development" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "HTML", "CSS", "Bootstrap5", "React", "Meteor"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaiʻi at Mānoa, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2024)",
+      "studyType": "BS",
+      "startDate": "2022-08-24",
+      "endDate": "2024-05-03",
+      "courses": [ "Algorithms", "Software Engineering I", "Database Systems I", "Security and Trust I"
+      ]
+    },
+    {
+      "institution": "Kapi'olani Community College, Honolulu, HI",
+      "area": "Natural Science-Information and Communications Technology",
+      "studyType": "AS",
+      "startDate": "2020-08-24",
+      "endDate": "2022-08-24",
+      "courses": [ "Intro to Computer Science I", "Intro to Computer Science II", "Program Structure", "Discrete Mathematics I", "Discrete Mathematics II" 
+      ]
+    }        
+  ],
+  "awards": [
+    {
+      "title": "National Science Foundation Geopaths - Impact (GP-IMPACT)",
+      "date": "08/2021 – 12/2021",
+      "awarder": "John Rand, PhD",
+      "summary": "Participate in the Student Undergraduate Research Fair (SURF) at the end of the semester of the award by presenting research, Volunteer to help organize SURF, Volunteer to help organize the STEM Expo, Perform any additional duties from the faculty mentor"
+    },
+    {
+      "title": "Phi Theta Kappa Honor Society",
+      "date": "08/2020 – 08/2022",
+      "awarder": "Ms.Julie Rancilio",
+      "summary": "From Wikipedia- Phi Theta Kappa Honor Society (ΦΘΚ or PTK) is the international honor society of students attending open-access institutions and seeking associate degrees, bachelor's degrees, or other college credentials."
+      }
+    ]
+}
