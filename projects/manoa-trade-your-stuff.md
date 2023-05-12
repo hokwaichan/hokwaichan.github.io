@@ -20,10 +20,9 @@ Manoa Trade Your Stuff is a team project for ICS 314. The aim of this project is
 <li> Create Add Profile Page </li>
 <li> Create Edit Profile Page </li>
 <li> Create Profile Page </li>
-<li> Create Item List </li>
+<li> Optimize Item List </li>
 <li> Optimize Categoies Page </li>
 <li> Optimize Item List Page </li>
-<li> Adding CSS </li>
 <p>&nbsp;</p>
 
 ## What you learned from this Project
