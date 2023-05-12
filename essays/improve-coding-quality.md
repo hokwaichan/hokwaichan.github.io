@@ -4,7 +4,7 @@ type: essay
 title: "Improve Coding Quality"
 # All dates must be YYYY-MM-DD format!
 date: 2023-02-09
-published: true
+published: false
 labels:
   - Coding Standards
   - ESLint 
