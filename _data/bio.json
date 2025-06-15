@@ -1,16 +1,30 @@
 {
   "basics": {
     "name": "Hok Wai Chan",
-    "label": "Student",
+    "label": "Software Engineer",
     "picture": "https://avatars.githubusercontent.com/u/77360958?v=4",
     "email": "hokwai@hawaii.edu",
     "phone": "808-679-0376",
     "website": "https://hokwaichan.github.io",
-    "summary": "I am studying for a B.S. in Computer Science at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "..", "postalCode": "96817", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "summary": "I hold a Master's degree in Computer Science from the University of Hawaii. I previously earned my B.S. in Computer Science from the same institution. I am passionate about software development and technology innovation.",
+    "location": {
+      "address": "..",
+      "postalCode": "96817",
+      "city": "Honolulu",
+      "countryCode": "USA",
+      "region": "Hawaii"
+    },
     "profiles": [
-      { "network": "github", "username": "hokwaichan", "url": "http://github.com/hokwaichan" },
-      { "network": "linkedin", "username": "Hok Wai Chan", "url": "https://www.linkedin.com/in/hok-wai-chan-91655525b/" }
+      {
+        "network": "github",
+        "username": "hokwaichan",
+        "url": "http://github.com/hokwaichan"
+      },
+      {
+        "network": "linkedin",
+        "username": "Hok Wai Chan",
+        "url": "https://www.linkedin.com/in/hok-wai-chan-91655525b/"
+      }
     ]
   },
   "interests": [
@@ -24,11 +38,21 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "HTML", "CSS", "Bootstrap5", "React", "Meteor"]
+      "keywords": [
+        "C",
+        "C++",
+        "Java",
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Bootstrap5",
+        "React",
+        "Meteor"
+      ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows", "Git/GitHub" ]
+      "keywords": ["Windows", "Git/GitHub"]
     }
   ],
   "education": [
@@ -38,7 +62,11 @@
       "studyType": "BS",
       "startDate": "2022-08-24",
       "endDate": "2024-05-03",
-      "courses": [ "Algorithms", "Software Engineering I", "Database Systems I", "Security and Trust I"
+      "courses": [
+        "Algorithms",
+        "Software Engineering I",
+        "Database Systems I",
+        "Security and Trust I"
       ]
     },
     {
@@ -47,9 +75,14 @@
       "studyType": "AS",
       "startDate": "2020-08-24",
       "endDate": "2022-08-24",
-      "courses": [ "Intro to Computer Science I", "Intro to Computer Science II", "Program Structure", "Discrete Mathematics I", "Discrete Mathematics II" 
+      "courses": [
+        "Intro to Computer Science I",
+        "Intro to Computer Science II",
+        "Program Structure",
+        "Discrete Mathematics I",
+        "Discrete Mathematics II"
       ]
-    }        
+    }
   ],
   "awards": [
     {
@@ -63,6 +96,6 @@
       "date": "08/2020 – 08/2022",
       "awarder": "Ms.Julie Rancilio",
       "summary": "From Wikipedia- Phi Theta Kappa Honor Society (ΦΘΚ or PTK) is the international honor society of students attending open-access institutions and seeking associate degrees, bachelor's degrees, or other college credentials."
-      }
-    ]
+    }
+  ]
 }
